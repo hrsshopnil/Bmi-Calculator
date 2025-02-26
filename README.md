@@ -22,7 +22,7 @@ This project helped me refine my Flutter skills and explore advanced UI/UX techn
 ### How to Run
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/hrsshopnil/Bmi-Calculator.git
    ```
 2. Install dependencies:
    ```sh
