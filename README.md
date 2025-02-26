@@ -1,32 +1,40 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
-
 # BMI Calculator 💪
 
-## Our Goal
+A Body Mass Index (BMI) Calculator inspired by the beautiful design concept from [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator). It’s a multi-screen app with a sleek UI, custom styling, and intuitive functionality.
 
-The objective of this tutorial is to look at how we can customise Flutter Widgets to achieve our own beautiful user interface designs. If you have a designer on board, no matter how unconventional their designs are, we can create them using Flutter. 
+## Features & What I Learned
 
+- Implementing Flutter themes to create a consistent and visually appealing design.
+- Navigating between multiple screens using Flutter Routes and Navigator.
+- Extracting and refactoring widgets efficiently for better code organization.
+- Passing functions as parameters and fields for flexible UI interaction.
+- Using the GestureDetector widget to enhance user interaction beyond basic taps.
+- Integrating custom color palettes using hex codes for a polished look.
+- Customizing Flutter widgets to match a specific design aesthetic.
+- Utilizing Dart Enums and the Ternary Operator for cleaner logic.
+- Understanding composition vs. inheritance and following Flutter's UI-building best practices.
+- Differentiating between `const` and `final` in Dart and knowing when to use each.
 
-## What you will create
-
-We’re going to make a Body Mass Index Calculator inspired by the beautiful designs made by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator). It will be a multi screen app with simple functionality but full-on custom styling. 
+This project helped me refine my Flutter skills and explore advanced UI/UX techniques.
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/bmi-calc-demo.gif)
 
-## What you will learn
+### How to Run
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the app:
+   ```sh
+   flutter run
+   ```
 
-- How to use Flutter themes to create coherent branding. 
-- How to create multi-page apps using Flutter Routes and Navigator.
-- How to extract and refactor Flutter Widgets with a click of the button. 
-- How to pass functions as parameters and fields.
-- How to use the GestureDetector Widget to detect more than just a tap.
-- How to use custom colour palettes by using hex codes.
-- How to customise Flutter Widgets to achieve a specific design style.
-- Understand Dart Enums and the Ternary Operator.
-- Learn about composition vs. inheritance and the Flutter way of creating custom UI.
-- Understand the difference between const and final in Dart and when to use each.
+### Contributing
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
