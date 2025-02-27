@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'reusableCard.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'constants.dart';
+import 'reusableBottomCard.dart';
 
 enum Gender {
   male,
@@ -16,7 +17,11 @@ class InputPage extends StatefulWidget {
 
 class _InputPageState extends State<InputPage> {
   Gender selectedGender = Gender.male;
+
   int height = 180;
+  int weight = 60;
+  int age = 20;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -108,8 +113,44 @@ class _InputPageState extends State<InputPage> {
             Expanded(
               child: Row(
                 children: [
-                  Expanded(child: ReuseableCard(colour: kActiveCardColor)),
-                  Expanded(child: ReuseableCard(colour: kActiveCardColor)),
+                  Expanded(
+                    child: ReuseableCard(
+                      colour: kActiveCardColor,
+                      cardChild: ReusableBottomCard(
+                        text: 'WEIGHT',
+                        number: weight,
+                        onPlusPressed: () {
+                          setState(() {
+                            weight++;
+                          });
+                        },
+                        onMinusPressed: () {
+                          setState(() {
+                            weight--;
+                          });
+                        },
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: ReuseableCard(
+                      colour: kActiveCardColor,
+                      cardChild: ReusableBottomCard(
+                        text: 'Age',
+                        number: age,
+                        onPlusPressed: () {
+                          setState(() {
+                            age++;
+                          });
+                        },
+                        onMinusPressed: () {
+                          setState(() {
+                            age--;
+                          });
+                        },
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
